@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## the inverse from the cache and skips the computation. Otherwise,
 ## it calculates the inverse of the data and sets the value of the 
 ## inverse in the cache via the setiv function. 
-## (assume that the matrix supplied is always invertible.)
+## (assume: the matrix supplied is always invertible.)
 
 cacheSolve <- function(x, ...) {
         iv<- x$getiv()
